@@ -1,0 +1,16 @@
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    max-width: 2160px;
+
+    @media only screen and (max-width:64em) {
+        width: var(--container-width-md);
+        position: relative;
+    }
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
